@@ -1,6 +1,7 @@
+import JobListings from '../components/JobListings';
 const JobsPage = () => {
-  return (
-    <div>Where Donkeys go to Donk</div>
-  )
+  return <section className='bg-blue-50 px-4 py-6'>
+    <JobListings /> 
+    </section>
 }
 export default JobsPage
